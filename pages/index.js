@@ -4,8 +4,11 @@ export default function Home() {
   return (
     <div className="container">
       <Head>
-        <title>Create Next App</title>
+        <title>Ben Hanan Subendran</title>
         <link rel="icon" href="/favicon.ico" />
+        <meta property="og:title" content="How to Become an Hehe" />
+        <meta property="og:description" content="SEO" />
+        <meta property="og:image" content="https://ahrefs.com/blog/wp-content/uploads/2019/12/fb-how-to-become-an-seo-expert.png" />
       </Head>
 
       <main>

@@ -10,7 +10,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
         <meta property="og:title" content="Ben Hanan Subendran" />
         <meta property="og:description" content="Artiste Website | One place to find all music streaming profile links of Ben Hanan Subendran" />
-        <meta property="og:image" content="https://ibb.co/t4Bq1Bk" />
+        <meta property="og:image" content="https://i.postimg.cc/wvC9CB20/Capt.png" />
       </Head>
 
       <main>

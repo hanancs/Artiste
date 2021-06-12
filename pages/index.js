@@ -12,11 +12,11 @@ export default function Home() {
         <meta property="og:title" content="Ben Hanan Subendran" />
         <meta property="og:description" content="Artiste Website | One place to find all music streaming profile links of Ben Hanan Subendran" />
         <meta property="og:image" content="https://i.postimg.cc/R6Trf4jH/Capt.png" />
-        <meta property="og:url" content="https://quick-linkss.vercel.app/"/>
+        <meta property="og:url" content="https://quick-linkss.vercel.app"/>
 
         <meta name="twitter:title" content="Ben Hanan Subendran"/>
         <meta name="twitter:description" content="Artiste Website | One place to find all music streaming profile links of Ben Hanan Subendran"/>
-        <meta name="twitter:image" content=" https://i.postimg.cc/R6Trf4jH/Capt.png"/>
+        <meta name="twitter:image" content=" https://i.postimg.cc/wvC9CB20/Capt.png"/>
         <meta name="twitter:card" content="summary_large_image"/>
       </Head>
 

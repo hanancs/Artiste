@@ -16,7 +16,7 @@ export default function Home() {
 
         <meta name="twitter:title" content="Ben Hanan Subendran"/>
         <meta name="twitter:description" content="Artiste Website | One place to find all music streaming profile links of Ben Hanan Subendran"/>
-        <meta name="twitter:image" content=" https://i.postimg.cc/wvC9CB20/Capt.png"/>
+        <meta name="twitter:image" content=""/>
         <meta name="twitter:card" content="summary_large_image"/>
       </Head>
 

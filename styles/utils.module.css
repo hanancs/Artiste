@@ -1,0 +1,10 @@
+.borderCircle {
+    border-radius: 20px;
+}
+
+.mainI {
+    
+    border-radius: 25px;
+    border:5px solid #6AFFA7;
+    padding: 5px 5px 0px 5px;
+}

@@ -1,4 +1,6 @@
 import Head from 'next/head'
+import Image from 'next/image'
+import utilStyles from '../styles/utils.module.css'
 
 export default function Home() {
   return (
@@ -7,59 +9,71 @@ export default function Home() {
         <title>Ben Hanan Subendran</title>
         <link rel="icon" href="/favicon.ico" />
         <meta property="og:title" content="Ben Hanan Subendran" />
-        <meta property="og:description" content="Quick Links of Ben Hanan Subendran" />
-        <meta property="og:image" content="https://avatars.githubusercontent.com/u/50701475?v=4" />
+        <meta property="og:description" content="Artiste Website | One place to find all music streaming profile links of Ben Hanan Subendran" />
+        <meta property="og:image" content="https://ibb.co/t4Bq1Bk" />
       </Head>
 
       <main>
+        <div className={utilStyles.mainI}>
+          <Image
+            priority
+            src="/images/profile.jpg"
+            className={utilStyles.borderCircle}
+            height={144}
+            width={144}
+          />
+        </div>
         <h1 className="title">
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
+          Ben Hanan Subendran
         </h1>
 
         <p className="description">
-          Get started by editing <code>pages/index.js</code>
+          A Country Musician from LKA
         </p>
 
         <div className="grid">
-          <a href="https://nextjs.org/docs" className="card">
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
+          <a href="https://music.apple.com/us/artist/ben-hanan-subendran/1569052568" className="card">
+            <h3>Apple</h3>
+            <p>Listen to music by Ben Hanan Subendran on Apple Music. Find top songs and albums by Ben Hanan Subendran, including Iremia POP, Gangස්டர் and more.</p>
           </a>
 
-          <a href="https://nextjs.org/learn" className="card">
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className="card"
-          >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
+          <a href="https://open.spotify.com/artist/34HvsQGz67U5PcsmgDZSWY?si=uNhL25hpQRa9RAtIULjRiA&dl_branch=1" className="card">
+            <h3>Spotify</h3>
+            <p>Listen to music by Ben Hanan Subendran on Spotify. Find top songs and albums by Ben Hanan Subendran, including Iremia POP, Gangස්டர் and more.</p>
           </a>
 
           <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+            href="https://music.amazon.ca/artists/B095TPBF9D/ben-hanan-subendran?marketplaceId=A2EUQ1WTGCTBG2&musicTerritory=CA"
             className="card"
           >
-            <h3>Deploy &rarr;</h3>
+            <h3>Amazon Music</h3>
+            <p>Listen to music by Ben Hanan Subendran on Amazon Music. Find top songs and albums by Ben Hanan Subendran, including Iremia POP, Gangස්டர் and more.</p>
+          </a>
+
+          <a
+            href="https://www.deezer.com/en/artist/134050102"
+            className="card"
+          >
+            <h3>Deezer</h3>
             <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
+              Listen to music by Ben Hanan Subendran on Deezer. Find top songs and albums by Ben Hanan Subendran, including Iremia POP, Gangස්டர் and more.
+            </p>
+          </a>
+
+          <a
+            href="https://www.jiosaavn.com/artist/ben-hanan-subendran/Mgcnei6cqM8_"
+            className="card"
+          >
+            <h3>Jio Saavn</h3>
+            <p>
+              Listen to music by Ben Hanan Subendran on Jio Saavn. Find top songs and albums by Ben Hanan Subendran, including Iremia POP, Gangස්டர் and more.
             </p>
           </a>
         </div>
       </main>
 
       <footer>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel" className="logo" />
-        </a>
+        © Ben Hanan Subendran
       </footer>
 
       <style jsx>{`
@@ -84,10 +98,12 @@ export default function Home() {
         footer {
           width: 100%;
           height: 100px;
-          border-top: 1px solid #eaeaea;
+          border-top: 5px solid #6AFFA7;
           display: flex;
           justify-content: center;
           align-items: center;
+          font-weight: bold;
+
         }
 
         footer img {
@@ -154,20 +170,20 @@ export default function Home() {
         .card {
           margin: 1rem;
           flex-basis: 45%;
-          padding: 1.5rem;
-          text-align: left;
-          color: inherit;
+          padding: 5rem;
+          color: #6AFFA7;
           text-decoration: none;
-          border: 1px solid #eaeaea;
-          border-radius: 10px;
+          border: 5px solid #eaeaea;
+          border-radius: 100px;
           transition: color 0.15s ease, border-color 0.15s ease;
         }
 
         .card:hover,
         .card:focus,
         .card:active {
-          color: #0070f3;
-          border-color: #0070f3;
+          color: #6AFFA7;
+          border-color: #6AFFA7;
+          background-color: black;
         }
 
         .card h3 {

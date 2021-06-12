@@ -6,9 +6,9 @@ export default function Home() {
       <Head>
         <title>Ben Hanan Subendran</title>
         <link rel="icon" href="/favicon.ico" />
-        <meta property="og:title" content="How to Become an Hehe" />
-        <meta property="og:description" content="SEO" />
-        <meta property="og:image" content="https://ahrefs.com/blog/wp-content/uploads/2019/12/fb-how-to-become-an-seo-expert.png" />
+        <meta property="og:title" content="Ben Hanan Subendran" />
+        <meta property="og:description" content="Quick Links of Ben Hanan Subendran" />
+        <meta property="og:image" content="https://avatars.githubusercontent.com/u/50701475?v=4" />
       </Head>
 
       <main>

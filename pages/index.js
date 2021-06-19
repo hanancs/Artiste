@@ -9,6 +9,8 @@ export default function Home() {
         <title>Ben Hanan Subendran</title>
         <link rel="icon" href="/favicon.ico" />
 
+        <meta name="google-site-verification" content="JK0CKKaCehLrFKt4SeqkNNLGpp4adw2kEoTEaFw7DuQ" />
+
         <meta property="og:title" content="Ben Hanan Subendran" />
         <meta property="og:description" content="Artiste Website | One place to find all music streaming profile links of Ben Hanan Subendran" />
         <meta property="og:image" content="https://avatars.githubusercontent.com/u/50701475?v=4"/>

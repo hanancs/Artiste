@@ -6,20 +6,28 @@ export default function Home() {
   return (
     <div className="container">
       <Head>
-        <title>Ben Hanan Subendran</title>
         <link rel="icon" href="/favicon.ico" />
 
         <meta name="google-site-verification" content="JK0CKKaCehLrFKt4SeqkNNLGpp4adw2kEoTEaFw7DuQ" />
+        <title>Ben Hanan Subendran | Country Singer-Songwriter from 🇱🇰 🎹🎸🎷🎧🎵</title>
+        <meta name="title" content="Ben Hanan Subendran | Country Singer-Songwriter from 🇱🇰 🎹🎸🎷🎧🎵"/>
+        <meta name="description" content="Artiste Website | One place to find all music streaming profile links of Ben Hanan Subendran"/>
 
-        <meta property="og:title" content="Ben Hanan Subendran" />
-        <meta property="og:description" content="Artiste Website | One place to find all music streaming profile links of Ben Hanan Subendran" />
-        <meta property="og:image" content="https://avatars.githubusercontent.com/u/50701475?v=4"/>
+
+        <meta property="og:type" content="website"/>
         <meta property="og:url" content="https://quick-linkss.vercel.app/"/>
+        <meta property="og:title" content="Ben Hanan Subendran | Country Singer-Songwriter from 🇱🇰 🎹🎸🎷🎧🎵"/>
+        <meta property="og:description" content="Artiste Website | One place to find all music streaming profile links of Ben Hanan Subendran"/>
+        <meta property="og:image" content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png"/>
 
-        <meta name="twitter:title" content="Ben Hanan Subendran"/>
-        <meta name="twitter:description" content="Artiste Website | One place to find all music streaming profile links of Ben Hanan Subendran"/>
-        <meta name="twitter:image" content="https://github.com/HananCS/nextjs-a/blob/main/public/Capt.PNG?raw=true"/>
-        <meta name="twitter:card" content="summary_large_image"/>
+       
+        <meta property="twitter:card" content="summary_large_image"/>
+        <meta property="twitter:url" content="https://quick-linkss.vercel.app/"/>
+        <meta property="twitter:title" content="Ben Hanan Subendran | Country Singer-Songwriter from 🇱🇰 🎹🎸🎷🎧🎵"/>
+        <meta property="twitter:description" content="Artiste Website | One place to find all music streaming profile links of Ben Hanan Subendran"/>
+        <meta property="twitter:image" content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png"/>
+
+        
       </Head>
 
       <main>

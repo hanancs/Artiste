@@ -15,17 +15,17 @@ export default function Home() {
 
 
         <meta property="og:type" content="website"/>
-        <meta property="og:url" content="https://quick-linkss.vercel.app/"/>
+        <meta property="og:url" content="https://www.benhanansubendran.digital/"/>
         <meta property="og:title" content="Ben Hanan Subendran | Country Singer-Songwriter from 🇱🇰 🎹🎸🎷🎧🎵"/>
         <meta property="og:description" content="Artiste Website | One place to find all music streaming profile links of Ben Hanan Subendran"/>
-        <meta property="og:image" content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png"/>
+        <meta property="og:image" content="https://i.ibb.co/HTcRkJ7/Capture.png"/>
 
        
         <meta property="twitter:card" content="summary_large_image"/>
-        <meta property="twitter:url" content="https://quick-linkss.vercel.app/"/>
+        <meta property="twitter:url" content="https://www.benhanansubendran.digital/"/>
         <meta property="twitter:title" content="Ben Hanan Subendran | Country Singer-Songwriter from 🇱🇰 🎹🎸🎷🎧🎵"/>
         <meta property="twitter:description" content="Artiste Website | One place to find all music streaming profile links of Ben Hanan Subendran"/>
-        <meta property="twitter:image" content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png"/>
+        <meta property="twitter:image" content="https://i.ibb.co/HTcRkJ7/Capture.png"/>
 
         
       </Head>

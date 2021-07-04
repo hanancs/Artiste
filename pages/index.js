@@ -7,27 +7,29 @@ export default function Home() {
     <div className="container">
       <Head>
         <link rel="icon" href="/favicon.ico" />
+        <link rel="stylesheet" href="https://unpkg.com/kursor/dist/kursor.css" />
+        <script src="https://cdn.jsdelivr.net/npm/kursor"></script>
 
         <meta name="google-site-verification" content="JK0CKKaCehLrFKt4SeqkNNLGpp4adw2kEoTEaFw7DuQ" />
         <title>Ben Hanan Subendran | Country Singer-Songwriter from 🇱🇰 🎹🎸🎷🎧🎵</title>
-        <meta name="title" content="Ben Hanan Subendran | Country Singer-Songwriter from 🇱🇰 🎹🎸🎷🎧🎵"/>
-        <meta name="description" content="Artiste Website | One place to find all music streaming profile links of Ben Hanan Subendran"/>
+        <meta name="title" content="Ben Hanan Subendran | Country Singer-Songwriter from 🇱🇰 🎹🎸🎷🎧🎵" />
+        <meta name="description" content="Artiste Website | One place to find all music streaming profile links of Ben Hanan Subendran" />
 
 
-        <meta property="og:type" content="website"/>
-        <meta property="og:url" content="https://www.benhanansubendran.digital/"/>
-        <meta property="og:title" content="Ben Hanan Subendran | Country Singer-Songwriter from 🇱🇰 🎹🎸🎷🎧🎵"/>
-        <meta property="og:description" content="Artiste Website | One place to find all music streaming profile links of Ben Hanan Subendran"/>
-        <meta property="og:image" content="https://i.ibb.co/HTcRkJ7/Capture.png"/>
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.benhanansubendran.digital/" />
+        <meta property="og:title" content="Ben Hanan Subendran | Country Singer-Songwriter from 🇱🇰 🎹🎸🎷🎧🎵" />
+        <meta property="og:description" content="Artiste Website | One place to find all music streaming profile links of Ben Hanan Subendran" />
+        <meta property="og:image" content="https://i.ibb.co/HTcRkJ7/Capture.png" />
 
-       
-        <meta property="twitter:card" content="summary_large_image"/>
-        <meta property="twitter:url" content="https://www.benhanansubendran.digital/"/>
-        <meta property="twitter:title" content="Ben Hanan Subendran | Country Singer-Songwriter from 🇱🇰 🎹🎸🎷🎧🎵"/>
-        <meta property="twitter:description" content="Artiste Website | One place to find all music streaming profile links of Ben Hanan Subendran"/>
-        <meta property="twitter:image" content="https://i.ibb.co/HTcRkJ7/Capture.png"/>
 
-        
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:url" content="https://www.benhanansubendran.digital/" />
+        <meta property="twitter:title" content="Ben Hanan Subendran | Country Singer-Songwriter from 🇱🇰 🎹🎸🎷🎧🎵" />
+        <meta property="twitter:description" content="Artiste Website | One place to find all music streaming profile links of Ben Hanan Subendran" />
+        <meta property="twitter:image" content="https://i.ibb.co/HTcRkJ7/Capture.png" />
+
+
       </Head>
 
       <main>
@@ -240,6 +242,11 @@ export default function Home() {
           box-sizing: border-box;
         }
       `}</style>
+      <script dangerouslySetInnerHTML={{ __html: `new kursor({
+            type: 2,
+            removeDefaultCursor: true,
+            color: '#6AFFA7'
+        })` }} />
     </div>
   )
 }

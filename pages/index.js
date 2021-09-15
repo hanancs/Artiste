@@ -47,7 +47,7 @@ export default function Home() {
         </h1>
 
         <p className="description">
-          A Country Musician from LKA
+          Ben Hanan Subendran is a Composer / Singer- Songwriter / Musician and Record Producer from Sri Lanka. His musical styles include Gospel, Country, Pop, Jazz, Western classical and Eastern classical. He has currently released his first Gospel Album in Tamil named "Redemption".
         </p>
 
         <div className="grid">
